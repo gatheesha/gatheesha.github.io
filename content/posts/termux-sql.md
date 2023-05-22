@@ -1,10 +1,11 @@
 1 +++
-   2 title = "Installing MySQL on your mobile with Termux (For A/L Dummies)" 
-   3 date = "2023-05-21"
-   4 author = "Lorem Ipsum"
-   5 cover = ""
-   6 description =""
-   7 +++
+title = "Installing MySQL on your mobile with Termux (For A/L Dummies)" 
+date = "2023-05-21"
+author = "Lorem Ipsum"
+cover = ""
+description =""
+++
+
 # Installing MySQL on your mobile with Termux (For A/L Dummies)
 
 Installing MySQL on your mobile with Termux (For A/L Dummies)
