@@ -4,24 +4,32 @@ date = "2023-01-12"
 author = "gath"
 cover = ""
 +++
-![pic of me](/img/Gath.jpg "a random pic of me (handsome af ik)")
 
 # Hi there 
 
+
 I'm **Gatheesha නිපුල්ම**-a highschool student, game developer, graphics designer and the co founder of **gatarita** games inc- from sri lanka! 
 
-I have been making games since I was 13, almost for about 6 years, and in that time, I released two commercial games, one game for google play store and made many game jam projects.
+{{<figure src="/img/naruto_hello.webp" position="center" alt="naruto hi gif">}}
 
-Over the years, 
-<!-- Over these years, I have worked on both extremely large projects for huge organisations and tiny projects for small startups. This has given me a lot of experience over a large variety of project types. It also means I’ve worked with a lot of teams in various sizes—each with their own constraints and goals. These projects vary between design systems, creative campaign work and good ol’ websites.
+Video Games always have been the _ultimate form of art_ for me. I've always liked solving problems and the idea of trying to understand complex stuff. And I think that very interest got me into making games from a very young age- since i was 13.
 
-I mostly specialise in CSS—whether that is writing a course for Google, co-authoring a book on CSS layout, or creating a methodology to help people write better CSS. A big chunk of our client work involves us applying this experience to help teams write better CSS—often by helping them create a design system.
+Started my game development journey with construct 2, where you dont have to write a single line of code to make a game. So, I made few-actually quite a lot projects with it. Then over the years I got familier with wiriting code with c# and godot's gdscript while improving myself as an graphics designer.
 
-You can catch up with me on Mastodon, Twitter, CodePen or Github. There’s some other links here, too.
+I always focus on visual side of things, like no matter what- if I'm working on something, It has look good. So while making games, I've put hours and hours into making graphics elements like posters, character posters etc... This helped me a lot to hone my graphic designing skills, both illustrator and photoshop. I've worked as the lead graphics designer for ClubBrick commiunity and youtube channel based on the US. Also I have worked on many graphics desgining projects for both local and international clients.
 
-- **5 duotone themes**, depending on your preferences (orange, red, blue, green, pink)
-- [**Fira Code**](https://github.com/tonsky/FiraCode) as default monospaced font. It's gorgeous!
-- **really nice, custom duotone** syntax highlighting based on [**PrismJS**](https://prismjs.com)
-- mobile friendly layout -->
+Some random facts about me:
+- I like movies, books and anime!
+- Swifty!
+- Right midfielder of the school soccer team
+- For me 'happyness > money or pleasure'
+
+#### Links
+- [**Instagram**](https://www.instagram.com/gatheesha22/)
+- [**Twitter**](https://twitter.com/Gatheesha)
+- [**Github**](https://github.com/gatheeshanipulma)
+- [**itch.io**](https://gatheesha.itch.io/) 
+
+{{<figure src="/img/Gath.jpg" alt="pic of me" caption="a random pic of me (handsome af ik)">}}
 
 So, there you have it... enjoy!

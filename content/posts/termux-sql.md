@@ -1,14 +1,10 @@
-1 +++
++++
 title = "Installing MySQL on your mobile with Termux (For A/L Dummies)" 
 date = "2023-05-21"
-author = "Lorem Ipsum"
+author = "gath"
 cover = ""
 description =""
-++
-
-# Installing MySQL on your mobile with Termux (For A/L Dummies)
-
-Installing MySQL on your mobile with Termux (For A/L Dummies)
++++
 
 This tutorial is mainly aimed for those who want to mess around MySQL query language and learn how to work with it, like solely for academic purposes.
 
@@ -39,8 +35,11 @@ Before installing MySQL we have to do some configurations inside termux in order
 
 In termux type
 
-    termux-setup-storage
-    
+```bash
+
+termux-setup-storage
+
+```
 
 and hit enter. A window saying requesting storage permission should appear, press "Allow". This allows termux to store files on your mobile, and for you to access files on your phone through termux.
 

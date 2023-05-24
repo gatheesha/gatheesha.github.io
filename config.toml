@@ -1,7 +1,13 @@
-baseurl = "https://example.com/"
+baseurl = "https://gatheeshanipulma.github.io/"
 languageCode = "en-us"
-theme = "terminal"
+# theme = "terminal"
 paginate = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 
 [params]
   contentTypeName = "posts"
@@ -40,3 +46,8 @@ paginate = 5
         name = "🎮games"
         url = "/games"
         weight = 2
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.90.0'
