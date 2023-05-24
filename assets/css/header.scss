@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  @media print {
+    display: none;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: flex;
+    flex: 1;
+
+    &:after {
+      content: '';
+      /*the line*/
+      background: $accent !important;
+      display: inline-block;
+      width: 100%;
+      right: 10px;
+      margin-right: -4px;
+    }
+
+    a {
+      flex: 0 0 auto;
+      max-width: 100%;
+      text-decoration: none;
+    }
+  }
+}
