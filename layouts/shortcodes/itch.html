@@ -1,19 +1,12 @@
 <script>
-    function resizeIframe(obj) {
-      obj.style.height =  1.05*obj.contentWindow.document.body.scrollHeight + 'px';
-    }
-  </script>
+  function resizeIframe(obj) {
+    obj.style.height = 1.05 * obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
 
 <center>
-<iframe 
-  src="{{ index .Params 0 }}?linkback=true&amp;border_width=5&amp;bg_color=000000&amp;fg_color=F2EEDE&amp;link_color=F2EEDE&amp;border_color=000000"
-  width="900"
-  frameborder="0"
-  height="175"
-  name="iframe"
-  >
-</iframe>
+  <iframe
+    src="{{ index .Params 0 }}?linkback=true&amp;border_width=5&amp;bg_color=000000&amp;fg_color=F2EEDE&amp;link_color=F2EEDE&amp;border_color=000000"
+    width="900" frameborder="0" height="175" name="iframe">
+  </iframe>
 </center>
-
-
-<!-- <center><iframe src="https://itch.io/embed/1176141?linkback=true&amp;border_width=5&amp;bg_color=000000&amp;fg_color=F2EEDE&amp;link_color=F2EEDE&amp;border_color=000000" width="560" height="175" frameborder="0"><a href="https://dread-i.itch.io/aul">Aul by Dreadi</a></iframe></center> -->
