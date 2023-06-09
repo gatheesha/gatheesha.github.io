@@ -2,8 +2,7 @@
 title = "Installing MySQL on your mobile with Termux (For A/L Dummies)" 
 date = "2023-05-21"
 author = "gath"
-cover = ""
-description =""
+description ="A tutorial for installing and using mysql on android with termux, for academic purposes."
 +++
 
 This tutorial is mainly aimed for those who want to mess around MySQL query language and learn how to work with it, like solely for academic purposes.
@@ -21,11 +20,11 @@ The playstore version of termux is pretty old so its not recommended to download
 
 Head over to [termux-github-repo](https://github.com/termux/termux-app/releases/tag/v0.118.0) and download the **arm64** version cause its gonna work on most mobile phones, but if it doesn’t install go with the **armeabi-v7a **version apk.
 
-![termux-app github releases — first one will work on most of the devices](https://cdn-images-1.medium.com/max/2880/1*8tMcj87wswUe4LwZx4wU8Q.png)*termux-app github releases — first one will work on most of the devices*
+{{<figure src="https://cdn-images-1.medium.com/max/2880/1*8tMcj87wswUe4LwZx4wU8Q.png" position="center" alt="naruto hi gif" caption="termux-app github releases — first one will work on most of the devices">}}
 
 After downloading install the apk as you would normally do, through the file manager.
 
-![installing the termux apk](https://cdn-images-1.medium.com/max/2880/1*wN9ZxHZfPFSS_q0sGzSoQg.png)*installing the termux apk*
+{{<figure src="https://cdn-images-1.medium.com/max/2880/1*wN9ZxHZfPFSS_q0sGzSoQg.png" position="center" alt="apk-installation-screenshot" caption="installing the termux apk">}}
 
 ## Installing MySQL
 
@@ -36,38 +35,41 @@ Before installing MySQL we have to do some configurations inside termux in order
 In termux type
 
 ```bash
-
 termux-setup-storage
-
 ```
 
 and hit enter. A window saying requesting storage permission should appear, press "Allow". This allows termux to store files on your mobile, and for you to access files on your phone through termux.
 
-![termux-setup-storage](https://cdn-images-1.medium.com/max/2880/1*q1UlvWJZ8UvLOLZ3PvMQsg.png)*termux-setup-storage*
+{{<figure src="https://cdn-images-1.medium.com/max/2880/1*q1UlvWJZ8UvLOLZ3PvMQsg.png" position="center" alt="storage-permissions-screenshot" caption="termux-setup-storage">}}
 
 ### Updating packages to install MySQL
 
 In your Termux application execute
 
+```bash
     apt update
-
+```
 And then:
 
+```bash
     apt upgrade
+```
 
 In both cases, if the app asks, **choose yes**, that is, **put the letter “y” and tap enter**. This step is very important because it will update the libraries that are necessary to install mysql on your mobile device.
 
-![updating packages and repo](https://cdn-images-1.medium.com/max/2880/1*yfhjEpOHQNBrpuYQp7fqaQ.png)*updating packages and repo*
+{{<figure src="https://cdn-images-1.medium.com/max/2880/1*yfhjEpOHQNBrpuYQp7fqaQ.png" position="center" alt="apt-update-screenshot" caption="updating packages and repo">}}
 
 ### Installing MySQL(MariaDB)
 
 OK, once you have your system updated we will install the MariaDB package. To do this, execute:
 
+```bash
     pkg install mariadb
+```
 
 If it asks you, accept everything by writing the letter y. It may take a while, it depends on your device, so be patient.
 
-![installing mariadb package](https://cdn-images-1.medium.com/max/2880/1*6sopngsBZ3XbfnjNm_40TQ.png)*installing mariadb package*
+{{<figure src="https://cdn-images-1.medium.com/max/2880/1*6sopngsBZ3XbfnjNm_40TQ.png" position="center" alt="pkg-install-mariadb-screenshot" caption="installing mariadb package">}}
 
 ## Testing MySQL on Android with Termux.
 
@@ -76,11 +78,13 @@ If it asks you, accept everything by writing the letter y. It may take a while, 
 After that, what we have to do is start the MySQL daemon **(this should also be done if we restart the phone. do the optional step to make the daemon start automatically)**.
 To do this, execute:
 
+```bash
     mysqld_safe -u root &
+```
 
 What we do is run mysqld_safe with the root user; the ampersand “&” is to run it in the background like starting xampp or wimp server on your windows PC. Run it and press Enter. This is how it looks in my case:
 
-![starting mysql daemon](https://cdn-images-1.medium.com/max/2880/1*RSu9kTy-DJ5tY87qbQpLug.png)*starting mysql daemon*
+{{<figure src="https://cdn-images-1.medium.com/max/2880/1*RSu9kTy-DJ5tY87qbQpLug.png" position="center" alt="mysqld_safe -u root &-screenshot" caption="starting mysql daemon">}}
 
 ### Optional : Making the daemon start automatically when log-ining
 
@@ -88,7 +92,9 @@ What we do is run mysqld_safe with the root user; the ampersand “&” is to ru
 
 Run the following command once and every time you start termux, MySQL daemon will be started automatically.
 
+```bash
     echo "mysqld_safe -u root &" >> .profile
+```
 
 What we do here is using the linux default command ‘echo’ to add a new line in .profile file, everything in the .profile file will be executed automatically at the login.
 
@@ -96,11 +102,13 @@ What we do here is using the linux default command ‘echo’ to add a new line 
 
 Now that we’ve started the MySQL daemon its time to connect it from the client, execute:
 
+```bash
     mysql -u root
+```
 
 Just as you would do on the command prompt of windows. This must have shown you something like this, (If not, make sure you started the demon.)
 
-![starting mysql](https://cdn-images-1.medium.com/max/2880/1*J52xyD126IUobCIhbMBAXg.png)*starting mysql*
+{{<figure src="https://cdn-images-1.medium.com/max/2880/1*J52xyD126IUobCIhbMBAXg.png" position="center" alt="mysql -u root &-screenshot" caption="starting mysql">}}
 
 Congratulations now you’ve got MySQL up and running on your smartphone. Its not a emulation of mysql like in most mobile apps, you’re hosting a server on your own, Pretty Awesome right?
 

@@ -3,14 +3,20 @@ To add an extended footer section, please create
 `layouts/partials/extended_footer.html` in your Hugo directory.
 -->
 <div class="extended_footer">
-    <ul>
-      <li><a href="https://twitter.com/julesforrest">Twitter</a></li>
-      <li><a href="https://codepen.io/julesforrest">Codepen</a></li>
-      <li><a href="mailto:julesforrest@gmail.com">Email</a></li>
-      <li><a href="https://dribbble.com/julesforrest">Dribbble</a></li>
-      <li><a href="https://github.com/julesforrest">Github</a></li>
-      <li>
-        <p>👋</p>
-      </li>
+    <ul class="extended_footer__links">
+      <li><a href="https://www.instagram.com/gatheesha22/"><i class="fa-brands fa-instagram"></i></a></li>
+      <li></i><a href="https://twitter.com/Gatheesha"><i class="fa-brands fa-twitter"></a></i></li>
+      <li><a href="https://github.com/gatheeshanipulma"><i class="fa-brands fa-github"></i></a></li>
+      <li><a href="https://gatheesha.itch.io"><i class="fa-brands fa-itch-io"></i></a></li>
+      <li><a href="mailto:julesforrest@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
     </ul>
-  </div>
+    {{ if $.Site.Copyright }}
+    <div class="copyright copyright--user">
+      <span>{{ $.Site.Copyright | safeHTML }}</span>
+  {{ else }}
+    <div class="copyright">
+      <span>© {{ now.Year }} Powered by <a href="http://gohugo.io">Hugo</a></span>
+  {{ end }}
+    <span>:: based on <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> by <a href="https://github.com/panr" target="_blank">panr</a></span>
+    </div>
+</div>
