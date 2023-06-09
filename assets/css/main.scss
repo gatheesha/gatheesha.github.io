@@ -345,3 +345,11 @@ hr {
 sup {
  line-height: 0;
 }
+
+
+iframe {
+  width: 660px;
+  @media ($phone) {
+    width: 226px;
+  }
+}

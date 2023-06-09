@@ -71,13 +71,13 @@
     color: #FFFFFF;
     opacity: .2;
   }
-  
-  @media (min-width: 500px) {
-    ul {
-      grid-auto-flow: column;
-    }
+
+  ul {
+    grid-auto-flow: column;
+
+
   }
-  
+
   a {
     color: white;
     text-decoration: none;
@@ -87,22 +87,26 @@
     grid-column: 1 / 2;
     grid-row: 1;
   }
+
   li {
     transition: all 0.1s ease-in-out;
   }
 
-  li:hover{
+  li:hover {
     transform: scale(1.4);
   }
 
   @keyframes wave-animation {
+
     0%,
     100% {
       transform: rotate(0deg);
     }
+
     25% {
       transform: rotate(20deg);
     }
+
     75% {
       transform: rotate(-15deg);
     }
