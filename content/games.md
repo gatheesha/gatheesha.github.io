@@ -92,7 +92,7 @@ Made within 96h For JamGoJam JamDNA 13
 <br> **Platforms**: Web
 <hr>
 
-#### Tanks Tank Man
+#### Tanks Tanks Man!!
 _My everything <3_
 {{<itch "https://itch.io/embed/323443" >}}
 

@@ -1,0 +1,48 @@
+#columns {
+	column-width: 250px;
+	column-gap: 15px;
+  width: 100%;
+}
+
+div#columns figure {
+  display: inline-block;
+  // column-break-inside: avoid;
+  overflow: hidden;
+  margin: 10px 0 0 0;
+  border: 3px solid $accent;
+}
+
+
+div#columns figure img {
+	width: 100%; height: auto;
+  transition: all 1s ease-out;
+  transform-origin: bottom;
+  //box-shadow: inset 5px 5px 5px 5px rgba(0, 0, 0, 1);
+  
+}
+
+
+
+div#columns small { 
+  font-size: 1rem;
+  float: right; 
+  text-transform: uppercase;
+  color: #aaa;
+} 
+
+div#columns small a { 
+  color: #666; 
+  text-decoration: none; 
+  transition: .4s color;
+}
+
+div#columns figure:hover {
+  //opacity: 0.1;
+  //box-shadow: 0 0px 0px 5px rgba(0, 0, 0, 1);
+  img {transform: scale(1.02);}
+}
+
+@media screen and (max-width: 750px) { 
+  #columns { column-gap: 0px; }
+  #columns figure { width: 100%; }
+}

@@ -1,9 +1,15 @@
 {{ if .Get "src" }}
+  {{$mysrc := .Get "src" | string }}
   <figure class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" >
 
-    <img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} />
+    <a href="#{{ .Get "src" | path.BaseName }}-lightbox"><img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} />
+    </a>
     {{ if .Get "caption" }}
     <figcaption class="{{ with .Get "captionPosition"}}{{ . }}{{ else -}} center {{- end }}" {{ with .Get "captionStyle" }} style="{{ . | safeCSS }}" {{ end }}>{{ .Get "caption" | safeHTML }}</figcaption>
   {{ end }}
+  <a href="#" class="lightbox" id="{{ .Get "src" | path.BaseName }}-lightbox">
+    <div style="background-image:url('{{ strings.TrimPrefix "/" $mysrc }}')"></div>
+  </a>
   </figure>
 {{ end }}
+
