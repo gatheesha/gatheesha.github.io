@@ -81,7 +81,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "gath"
-      logoHomeLink = "/home"
+      logoHomeLink = "/"
 
     [languages.en.menu]
 

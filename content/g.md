@@ -8,96 +8,79 @@ Toc = "false"
 # Digital Art
 
 <div id="columns">
-<figure>
-      <img src="\img\designs\art-iwillloveyoualways-artwork.webp" alt="art-iwillloveyoualways-artwork">
-      <figcaption> Naruto Fanart-unedited </figcaption>
-</figure>
-{{<figure src="/img/naruto_hello.webp" alt="naruto hi gif">}}
-{{<figure src="/img/Gath.jpg" alt="pic of me" caption="a random pic of me (handsome af ik)">}}
-<figure>
-      <img src="\img\designs\art-nuteshelldiysc3.webp">
-      <figcaption> NushellAnimation DTIYS challenge-unedited</figcaption>
-</figure>
+{{<figure src="/img/designs/art-iwillloveyoualways-artwork.webp"
+      alt="art-iwillloveyoualways-artworkpic of me"
+      caption="Naruto Fanart-unedited">}}
 
-<figure>
-      <img src="\img\designs\art-iwillloveyoualways.webp">
-      <figcaption> Naruto Fanart</figcaption>
-</figure>
+{{<figure src="/img/designs/art-nuteshelldiysc3.webp"
+      alt="NushellAnimation DTIYS challenge-unedited"
+      caption="NushellAnimation DTIYS challenge-unedited">}}
 
-<figure>
-      <img src="\img\designs\art-nuteshelldiysc4.webp">
-      <figcaption> NushellAnimation DTIYS Challenge</figcaption>
-</figure>
+{{<figure src="/img/designs/art-iwillloveyoualways.webp"
+      caption= "Naruto Fanart">}}
 
-<figure>
-      <img src="\img\designs\art-moonstar-intothewild.webp">
-      <figcaption>for moonstar.us</figcaption>
-</figure>
+{{<figure src="/img/designs/art-nuteshelldiysc4.webp"
+      caption= "NushellAnimation DTIYS challenge"
+      alt="nutshellanimations-manipulation">}}
 
-<figure>
-      <img src="\img\designs\art-moonstar-growth.webp">
-      <figcaption>moonstar.us mascot</figcaption>
-</figure>
+{{<figure
+       src="/img/designs/art-moonstar-intothewild.webp"
+      caption="for moonstar.us">}}
+
+{{<figure
+       src="/img/designs/art-moonstar-growth.webp"
+      caption="moonstar.us mascot">}}
 </div>
+
 
 #### RoyalButts Character Posters
+
 <div id="columns">
-<figure>
-      <img src="\img\designs\RoyalbuttsCharacterPosters-HoraGediya.webp">
-      <figcaption> RoyalButts Character Poster - Hora Gediya </figcaption>
-</figure>
+{{<figure
+       src="/img/designs/RoyalbuttsCharacterPosters-HoraGediya.webp"
+      caption= "RoyalButts Character Poster - Hora Gediya">}}
 
-<figure>
-      <img src="\img\designs\RoyalbuttsCharacterPosters-Kaputa.webp">
-      <figcaption> RoyalButts Character Poster - Kaputa </figcaption>
-</figure>
+{{<figure
+      src="/img/designs/RoyalbuttsCharacterPosters-Kaputa.webp"
+      caption= "RoyalButts Character Poster - Kaputa">}}
 
-<figure>
-      <img src="\img\designs\RoyalbuttsCharacterPosters-Maina.webp">
-      <figcaption> RoyalButts Character Poster - Maina </figcaption>
-</figure>
+{{<figure
+       src="/img/designs/RoyalbuttsCharacterPosters-Maina.webp"
+      caption= "RoyalButts Character Poster - Maina">}}
 
-<figure>
-      <img src="\img\designs\RoyalbuttsCharacterPosters-YOU.webp">
-      <figcaption> RoyalButts Character Poster - You </figcaption>
-</figure>
+{{<figure
+       src="/img/designs/RoyalbuttsCharacterPosters-YOU.webp"
+      caption= "RoyalButts Character Poster - You">}}
 
-<figure>
-      <img src="\img\designs\Royalbutts.webp">
-      <figcaption> RoyalButts Poster</figcaption>
-</figure>
+{{<figure
+       src="/img/designs/Royalbutts.webp"
+      caption= "RoyalButts Poste">}}
 </div>
+
 
 # Photo Manipulations
 
 <div id="columns">
-<figure>
-      <img src="\img\designs\pm-squidgame.webp">
-      <figcaption> Cursed Squid Game Fanart </figcaption>
-</figure>
+{{<figure
+       src="/img/designs/pm-squidgame.webp"
+      caption= "Cursed Squid Game Fanart">}}
 
-<figure>
-      <img src="\img\designs\pm-ts.webp">
-      <figcaption> Red - Taylor's Version Albumart </figcaption>
-</figure>
+{{<figure
+       src="/img/designs/pm-ts.webp"
+      caption= "Red - Taylor's Version Albumart">}}
 
-<figure>
-      <img src="\img\designs\pm-kipthefrog.webp">
-      <figcaption> Pepe The Frog Fanart </figcaption>
-</figure>
-<figure>
-      <img src="\img\designs\pm-nyana.webp">
-      <figcaption> Nartwork Gaming Anniversary Fanart</figcaption>
-</figure>
-<figure>
-      <img src="\img\designs\pm-atha.webp">
-      <figcaption> Nadungamuwe Raja </figcaption>
-</figure>
+{{<figure
+       src="/img/designs/pm-kipthefrog.webp"
+      caption= "Pepe The Frog Fanart"
+>}}
+{{<figure
+       src="/img/designs/pm-nyana.webp"
+      caption= "Nartwork Gaming Anniversary Fanar">}}
+{{<figure
+       src="/img/designs/pm-atha.webp"
+      caption= "Nadungamuwe Raja">}}
 
-
-
-<figure>
-      <img src="\img\designs\pm-amethrasu.webp">
-      <figcaption> Amatherasu from Naruto</figcaption>
-</figure>
+{{<figure
+       src="/img/designs/pm-amethrasu.webp"
+      caption= "Amatherasu from Narut">}}
 </div>
