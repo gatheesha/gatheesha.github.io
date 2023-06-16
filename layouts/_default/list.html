@@ -1,56 +1,30 @@
-{{ define "main" }}
-  {{ with .Content }}
-    <div class="index-content">
-      {{ . }}
-    </div>
+{{ define "main"}}
+<div id="archive">
+  <ul class="post-list">
+
+  {{ $pages := .Paginator.Pages }}
+  {{ if .Site.Params.showAllPostsArchive }}
+    {{ $pages = .Pages }}
   {{ end }}
-  <div class="posts">
-    {{ range .Paginator.Pages }}
-      <article class="post on-list">
-        <h1 class="post-title">
-          <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-        </h1>
-        <div class="post-meta">
-          {{ if .Date }}
-            <time class="post-date">
-              {{ .Date.Format "2006-01-02" }} ::
-            </time>
-          {{ end }}
-          {{ with .Params.Author }}
-            <span class="post-author">{{ . }}</span>
-          {{ end }}
-        </div>
 
-        {{ if .Params.tags }}
-          <span class="post-tags">
-            {{ range .Params.tags }}
-            #<a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
-              {{- . -}}
-            </a>&nbsp;
-            {{ end }}
-          </span>
-        {{ end }}
-
-        {{ partial "cover.html" . }}
-
-        <div class="post-content">
-          {{ if .Params.showFullContent }}
-            {{ .Content }}
-          {{ else if .Description }}
-            {{ .Description | markdownify }}
-          {{ else }}
-            {{ .Summary }}
-          {{ end }}
-        </div>
-
-        {{ if not .Params.showFullContent }}
-          <div>
-            <a class="read-more button" href="{{.RelPermalink}}">{{ $.Site.Params.ReadMore }} →</a>
-          </div>
-        {{ end }}
-      </article>
+  {{ range (sort $pages "Date" "desc") }}
+    {{ $pageYear := (.Date.Format "2006") }}
+    {{ if (ne $pageYear ($.Scratch.Get "year")) }}
+    {{ $.Scratch.Set "year" $pageYear }}
+    <h2>{{ $pageYear }}</h2>
     {{ end }}
-
+    <li class="post-item">
+      <div class="meta">
+        <time datetime="{{ time .Date }}" itemprop="datePublished">{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}</time>
+      </div>
+      <span>    
+        <a class="" href="{{ .Permalink }}">{{ if .Title }} {{ .Title }} {{ else }} Untitled {{ end }}</a>
+      </span>
+    </li>
+    {{ end }}
+  </ul>
+  {{ if eq .Site.Params.showAllPostsArchive false }}
     {{ partial "pagination.html" . }}
-  </div>
+  {{ end }}
+</div>
 {{ end }}

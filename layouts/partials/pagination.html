@@ -1,16 +1,13 @@
-<div class="pagination">
-  <div class="pagination__buttons">
-    {{ if .Paginator.HasPrev }}
-      <a href="{{ .Paginator.Prev.URL }}" class="button previous">
-        <span class="button__icon">←</span>
-        <span class="button__text">{{ $.Site.Params.newerPosts | default "Newer posts" }}</span>
-      </a>
-    {{ end }}
-    {{ if .Paginator.HasNext }}
-      <a href="{{ .Paginator.Next.URL }}" class="button next">
-        <span class="button__text">{{ $.Site.Params.olderPosts | default "Older posts" }}</span>
-        <span class="button__icon">→</span>
-      </a>
-    {{ end }}
-  </div>
-</div>
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+    <div class="pagination">
+        {{ if $pag.HasPrev }}
+            <a href="{{ $pag.Prev.URL }}"><i class="fas fa-angle-left"></i></a>
+        {{ end }}
+        <span class="page-number">Page {{ $pag.PageNumber }} of {{ $pag.TotalPages }}</span>
+        {{ if $pag.HasNext }}
+            <a href="{{ $pag.Next.URL }}"><i class="fas fa-angle-right"></i>
+            </a>
+            {{ end }}
+    </div>
+{{ end }}

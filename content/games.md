@@ -6,7 +6,7 @@ author: "gath"
 
 Check out some games i made!
 
-# Massacre Of RoyalButts
+## Massacre Of RoyalButts
 _Featuring Global Leaderboard, 3 Boss Fights plus a Secret ending. Also available on Google PlayStore_
 
 {{<itch "https://itch.io/embed/1597418" >}}
@@ -23,7 +23,7 @@ _Featuring Global Leaderboard, 3 Boss Fights plus a Secret ending. Also availabl
 
 
 
-# KOTU
+## KOTU
 Made within 1month (we spent like 5days on it lol ) for Secret Santa Jam 2021
 {{<itch "https://itch.io/embed/1324132" >}}
 
@@ -36,7 +36,7 @@ Made within 1month (we spent like 5days on it lol ) for Secret Santa Jam 2021
 <br> **Platforms**: Web
 <hr>
 
-# Aul
+## Aul
 _Unfinished Zombie Survial Shooter with graphics inspired from Altos Adventures._
 
 Made within a week for Brackeys Game Jam 2021.2
@@ -51,7 +51,7 @@ Made within a week for Brackeys Game Jam 2021.2
 <br> **Platforms**: Web
 <hr>
 
-# Bittara
+## Bittara
 for Newgrounds July jam 21
 {{<itch "https://itch.io/embed/1137183" >}}
 
@@ -66,7 +66,7 @@ for Newgrounds July jam 21
 
 # Really old projects i made with construct 2
 
-#### The Grining Fall
+## The Grining Fall
 Made within 96h for JamGoJam JAM DNA 15
 {{<itch "https://itch.io/embed/428691" >}}
 
@@ -79,7 +79,7 @@ Made within 96h for JamGoJam JAM DNA 15
 <br> **Platforms**: Web
 <hr>
 
-#### The Wolf Base
+## The Wolf Base
 Made within 96h For JamGoJam JamDNA 13
 {{<itch "https://itch.io/embed/422220" >}}
 
@@ -92,7 +92,7 @@ Made within 96h For JamGoJam JamDNA 13
 <br> **Platforms**: Web
 <hr>
 
-#### Tanks Tanks Man!!
+## Tanks Tanks Man!!
 _My everything <3_
 {{<itch "https://itch.io/embed/323443" >}}
 

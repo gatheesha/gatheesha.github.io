@@ -1,0 +1,46 @@
+#columns {
+  column-width: 200px;
+  column-gap: 15px;
+  width: 100%;
+}
+
+div#columns figure {
+  display: inline-block;
+  // column-break-inside: avoid;
+  overflow: hidden;
+  margin: 10px 0 0 0;
+  //border: 3px solid color-text;
+  //box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+
+div#columns figure img {
+  width: 100%;
+  height: auto;
+  transform-origin: bottom;
+}
+
+
+
+div#columns small {
+  font-size: 1rem;
+  float: right;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+div#columns small a {
+  color: #666;
+  text-decoration: none;
+  transition: .4s color;
+}
+
+@media screen and (max-width: $page-width) {
+  #columns {
+    column-gap: 0px;
+  }
+
+  #columns figure {
+    width: 100%;
+  }
+}

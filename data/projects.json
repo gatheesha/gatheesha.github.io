@@ -1,0 +1,32 @@
+{
+  "list": [
+    {
+      "name":"blog",
+      "url":"/posts",
+      "desc":"random blog posts and tutorials i wrote"
+    },
+    {
+      "name":"games",
+      "url":"/games",
+      "desc":"some of the games i've made"
+    },
+    {
+      "name":"digital-art",
+      "url":"/digitalart",
+      "desc":"personal projects"
+    },
+    {
+      "name":"client-work",
+      "url":"/clientwork",
+      "desc":"designs made for client requests"
+    },
+    {
+      "name":"about",
+      "url":"/about",
+      "desc":"quick intro about me"
+    },
+    {
+      "desc":"and thats all, enjoy your stay!"
+    }
+  ]
+}

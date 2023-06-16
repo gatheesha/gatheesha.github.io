@@ -1,123 +1,120 @@
-baseurl = "https://gatheeshanipulma.github.io/"
+baseURL = "https://example.com"
 languageCode = "en-us"
-# Add it only if you keep the theme in the `themes` directory.
-# Remove it if you use the theme as a remote Hugo Module.
-paginate = 5
-
-[params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
-
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "custom"
-
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 4
-
-  # show selector to switch language
-  showLanguageSelector = false
-
-  # set theme to full screen width
-  fullWidthTheme = false
-
-  # center theme with default width
-  centerTheme = true
-
-  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
-  autoCover = true
-
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
-
-  # set a custom favicon (default is a `themeColor` square)
-  #favicon = "favicon.ico"
-
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
-
-  # set all headings to their default size (depending on browser settings)
-  # oneHeadingSize = true # default
-
-  # whether to show a page's estimated reading time
-  # readingTime = false # default
-
-  # whether to show a table of contents
-  # can be overridden in a page's front-matter
-  # Toc = true # default
-
-  # set title for the table of contents
-  # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
+title = "gath's blog"
+#theme = "cactus"
+copyright = "gath" # cactus will use title if copyright is not set
+disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
+# googleAnalytics = "UA-1234-5"
 
 
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = ""
-  site = ""
+# summaryLength = 2
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "gath"
-    subtitle = "gatheesha's personal blog and portfolio"
-    owner = "gatheesha"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
-    minuteReadingTime = "min read"
-    words = "words"
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-    [languages.en.params.logo]
-      logoText = "gath"
-      logoHomeLink = "/"
+[[menu.main]]
+name = "Blog"
+url = "/posts"
+weight = 2
 
-    [languages.en.menu]
+# [[menu.main]]
+# name = "Tags"
+# url = "/tags"
+# weight = 3
+[[menu.main]]
+name = "Games"
+url = "/games"
+weight = 3
 
-      [[languages.en.menu.main]]
-        identifier = "blog"
-        name = "📝blog"
-        url = "/posts"
-        weight = 1
-      [[languages.en.menu.main]]
-        identifier = "designs"
-        name = "🎨designs"
-        url = "/g"
-        weight = 2
-      [[languages.en.menu.main]]
-        identifier = "games"
-        name = "🎮games"
-        url = "/games"
-        weight = 3
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "😎about"
-        url = "/about"
-        weight = 4
+[[menu.main]]
+name = "Digital-Art"
+url = "/digitalart"
+weight = 4
 
-[module]
-  # In case you would like to make changes to the theme and keep it locally in you repository,
-  # uncomment the line below (and correct the local path if necessary).
-  # --
-  # replacements = "github.com/panr/hugo-theme-terminal -> themes/terminal"
-# [[module.imports]]
-#   path = 'github.com/panr/hugo-theme-terminal'
-  [module.hugoVersion]
-    extended = true
-    min = '0.90.0'
+[[menu.main]]
+name = "Client-Work"
+url = "/clientwork"
+weight = 5
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 6
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+  [markup.goldmark.renderer] 
+    unsafe= true
+
+[params]
+
+  colortheme = "custom" # dark, light, white, or classic
+  rss = false # generate rss feed. default value is false
+  googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
+  showAllPostsArchive = false # default
+
+  # Home page settings
+  description = "I do graphics design and game development"
+  mainSection = "posts" # your main section
+  showAllPostsOnHomePage = false # default
+  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview = false # show tags overview by default.
+  showProjectsList = true # show projects list by default (if projects data file exists).
+  projectsUrl = "https://github.com/gohugoio" # title link for projects list
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat = "2006-01-02" # default
+
+  # Post page settings
+  show_updated = true # default
+  showReadTime = true # default
+
+  mainSectionTitle = "Latest Blog Posts"
+
+   [params.comments]
+     enabled = false # default
+  #   engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
+  #   [params.comments.utterances]
+  #     repo = "<github_username>/<github_reponame>"
+  #     label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
+  #     theme = "github-light"
+  #   [params.comments.cactuscomments]
+  #     siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
+  #     serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
+  #     serverName = "" # Defaults to cactus.chat
+
+  # the value of name should be an valid font awesome icon name (brands type)
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  
+  [[params.social]]
+    name = "instagram"
+    link = "https://www.instagram.com/gatheesha22/"
+  [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/Gatheesha"
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/gatheeshanipulma"
+
+  [[params.social]]
+    name = "itch-io"
+    link = "https://gatheesha.itch.io"
+  [[params.social]]
+    name = "email"
+    link = "gnipulma@gmail.com"  # no need for "mailto:" in the head
