@@ -8,79 +8,82 @@ Toc = "false"
 ## Digital Art
 
 <div id="columns">
-{{<figure src="/img/designs/art-iwillloveyoualways-artwork.webp"
-      alt="art-iwillloveyoualways-artworkpic of me"
-      caption="Naruto Fanart-unedited">}}
+{{<figure src="/img/designs/NarutoFanartUnedited.jpg" 
+ alt="naruto-fanart-unedited"
+ caption="Naruto Fanart-Unedited">}}
 
-{{<figure src="/img/designs/art-nuteshelldiysc3.webp"
-      alt="NushellAnimation DTIYS challenge-unedited"
-      caption="NushellAnimation DTIYS challenge-unedited">}}
+{{<figure src="/img/designs/Nutshellanimations-DTIYS-Challenge-Unedited.jpg" 
+ alt="nutshellanimations-d-t-i-y-s-challenge-unedited"
+ caption="Nutshellanimations DTIYS Challenge-Unedited">}}
 
-{{<figure src="/img/designs/art-iwillloveyoualways.webp"
-      caption= "Naruto Fanart">}}
+{{<figure src="/img/designs/NarutoFanart.jpg" 
+ alt="naruto-fanart"
+ caption="Naruto Fanart">}}
 
-{{<figure src="/img/designs/art-nuteshelldiysc4.webp"
-      caption= "NushellAnimation DTIYS challenge"
-      alt="nutshellanimations-manipulation">}}
+{{<figure src="/img/designs/Nutshellanimations-DTIYS-Challenge.jpg" 
+ alt="nutshellanimations-d-t-i-y-s-challenge"
+ caption="Nutshellanimations DTIYS Challenge">}}
 
-{{<figure
-       src="/img/designs/art-moonstar-intothewild.webp"
-      caption="for moonstar.us">}}
-
-{{<figure
-       src="/img/designs/art-moonstar-growth.webp"
-      caption="moonstar.us mascot">}}
+{{<figure src="/img/designs/ForMoonstar.us.jpg" 
+ alt="for-moonstar.us"
+ caption="For Moonstar.us">}}
+ 
+{{<figure src="/img/designs/Moonstar.usMascot.jpg" 
+ alt="moonstar.us-mascot"
+ caption="Moonstar.us Mascot">}}
 </div>
 
 
 ### RoyalButts Character Posters
 
 <div id="columns">
-{{<figure
-       src="/img/designs/RoyalbuttsCharacterPosters-HoraGediya.webp"
-      caption= "RoyalButts Character Poster - Hora Gediya">}}
+{{<figure src="/img/designs/RoyalButtsCharacterPosters-HoraGediya.jpg" 
+ alt="royal-butts-character-posters-hora-gediya"
+ caption="Hora Gediya">}}
 
-{{<figure
-      src="/img/designs/RoyalbuttsCharacterPosters-Kaputa.webp"
-      caption= "RoyalButts Character Poster - Kaputa">}}
+{{<figure src="/img/designs/RoyalButtsCharacterPosters-Kaputa.jpg" 
+ alt="royal-butts-character-posters-kaputa"
+ caption="Kaputa">}}
+ 
+{{<figure src="/img/designs/RoyalButtsCharacterPosters-Maina.jpg" 
+ alt="royal-butts-character-posters-maina"
+ caption="Maina">}}
 
-{{<figure
-       src="/img/designs/RoyalbuttsCharacterPosters-Maina.webp"
-      caption= "RoyalButts Character Poster - Maina">}}
-
-{{<figure
-       src="/img/designs/RoyalbuttsCharacterPosters-YOU.webp"
-      caption= "RoyalButts Character Poster - You">}}
-
-{{<figure
-       src="/img/designs/Royalbutts.webp"
-      caption= "RoyalButts Poste">}}
+{{<figure src="/img/designs/RoyallButts-Poster.jpg" 
+ alt="royall-butts-poster"
+ caption="Royall Butts Poster">}}
+ 
+{{<figure src="/img/designs/RoyalButtsCharacterPosters-YOU.jpg" 
+ alt="royal-butts-character-posters-y-o-u"
+ caption="YOU">}}
 </div>
 
 
 ## Photo Manipulations
 
 <div id="columns">
-{{<figure
-       src="/img/designs/pm-squidgame.webp"
-      caption= "Cursed Squid Game Fanart">}}
 
-{{<figure
-       src="/img/designs/pm-ts.webp"
-      caption= "Red - Taylor's Version Albumart">}}
+{{<figure src="/img/designs/TS-Red-Fanart.jpg" 
+ alt="t-s-red-fanart"
+ caption="TS Red-Fanart">}}
 
-{{<figure
-       src="/img/designs/pm-kipthefrog.webp"
-      caption= "Pepe The Frog Fanart"
->}}
-{{<figure
-       src="/img/designs/pm-nyana.webp"
-      caption= "Nartwork Gaming Anniversary Fanar">}}
-{{<figure
-       src="/img/designs/pm-atha.webp"
-      caption= "Nadungamuwe Raja">}}
+{{<figure src="/img/designs/PepeTheFrogFanart.jpg" 
+ alt="pepe-the-frog-fanart"
+ caption="Pepe The Frog-Fanart">}}
 
-{{<figure
-       src="/img/designs/pm-amethrasu.webp"
-      caption= "Amatherasu from Narut">}}
+{{<figure src="/img/designs/Amaterasu.jpg" 
+ alt="amaterasu"
+ caption="Amaterasu">}}
+
+{{<figure src="/img/designs/CursedSquidGameEdit.jpg" 
+ alt="cursed-squid-game-edit"
+ caption="Cursed Squid Game Edit">}}
+
+{{<figure src="/img/designs/NadungamuweRaja.jpg" 
+ alt="nadungamuwe-raja"
+ caption="Nadungamuwe Raja">}}
+ 
+{{<figure src="/img/designs/NartworkGamingFanart.jpg" 
+ alt="nartwork-gaming-fanart"
+ caption="Nartwork Gaming-Fanart">}}
 </div>

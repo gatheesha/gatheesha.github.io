@@ -108,11 +108,6 @@
         {{ end }}
     </ul>
   </section>
-  <figure class="center" style="max-width:80%;">
-    <img src=
-    "{{ "img/family.jpg" | absURL }}"
-        alt="Longtail boat in Thailand" style="width: 100%; height:auto; margin-bottom:-10px; ">
-      <figcaption>Me and The Bois</figcaption>
-    </figure>
+  {{ partial "fam.html" . }}
   {{ end }}
 {{ end }}

@@ -46,14 +46,19 @@
       padding: 0;
       list-style-type: none;
       line-height: 15px;
+      ove
 
       a {
         margin-right: 15px;
         color: $color-accent-1;
+        transition: all 0.1s cubic-bezier(0.000, 0.590, 1.000, 0.260);
       }
       a:hover {
-        @include underline(5px, $color-accent-1);
+        //@include underline(5px, $color-accent-3);
+        color: $color-text;
+        background: $color-accent-1;
       }
+
       li {
         display: inline-block;
         margin-right: 15px;

@@ -5,99 +5,134 @@ layout = "index"
 Toc = "false"
 +++
 
-## Posts
+# Social Media Designs
 
 <div id="columns">
-{{<figure src="/img/client/dog-final.webp"
-      alt="art-iwillloveyoualways-artworkpic of me"
-      caption="Naruto Fanart-unedited">}}
+{{<figure src="/img/designs/BroonTheBullyOpenForStud.jpg" 
+ alt="broon-the-bully-open-for-stud"
+ caption="Broon The Bully Open For Stud">}}
 
-{{<figure src="/img/client/E19-thumbnail.webp"
-      alt="NushellAnimation DTIYS challenge-unedited"
-      caption="NushellAnimation DTIYS challenge-unedited">}}
+{{<figure src="/img/designs/ValorantEvent-Post.jpg" 
+ alt="valorant-event-post"
+ caption="Valorant Event ">}}
 
-{{<figure src="/img/client/valorent_event21.webp"
-      caption= "Naruto Fanart">}}
+{{<figure src="/img/designs/SivaliFootballAwrudu-Post.jpg" 
+ alt="sivali-football-awrudu-post"
+ caption="Sivali Football Awrudu ">}}
 
-{{<figure src="/img/client/Post-SivaliFootballAwrudu-final.webp"
-      caption= "NushellAnimation DTIYS challenge"
-      alt="nutshellanimations-manipulation">}}
+{{<figure src="/img/designs/AccountingAvruduFestival-Post.jpg" 
+ alt="accounting-avrudu-festival-post"
+ caption="Accounting Avrudu Festival ">}}
 
-{{<figure
-       src="/img/client/post-accounting-avrudu-black.webp"
-      caption="for moonstar.us">}}
+{{<figure src="/img/designs/Tshirt-Post.jpg" 
+ alt="tshirt-post"
+ caption="Tshirt ">}}
 
-{{<figure
-       src="/img/client/Pallebadda-College-Reunion---Post.webp"
-      caption="moonstar.us mascot">}}
+{{<figure src="/img/designs/KoreanClassFlyer.jpg" 
+ alt="korean-class-post"
+ caption="Korean Class ">}}
 
-{{<figure
-       src="/img/client/koreannightclass.webp"
-      caption="moonstar.us mascot">}}
+{{<figure src="/img/designs/HydracastPodcastCover.jpg" 
+ alt="hydracast-podcast-cover"
+ caption="Hydracast Podcast Cover">}}
 
-{{<figure
-       src="/img/client/2.0-cover-1.webp"
-      caption="moonstar.us mascot">}}
+{{<figure src="/img/designs/Hydracast 2 PodcastCover.jpg" 
+ alt="hydracast-podcast-cover"
+ caption="Hydracast Podcast Cover">}}
+
+{{<figure src="/img/designs/College-Reunion-Post.jpg" 
+ alt="college-reunion-post"
+ caption="College Reunion ">}}
+
+{{<figure src="/img/designs/SivaliFootballAwrudu-Letter.jpg" 
+ alt="sivali-football-awrudu-letter"
+ caption="Sivali Football Awrudu Letter">}}
+
+{{<figure src="/img/designs/pamisand-Facebook-Header.jpg" 
+ alt="pamisand-facebook-header"
+ caption="pamisand Facebook Header">}}
+ 
+{{<figure src="/img/designs/pamisand-Logo.jpg" 
+ alt="pamisand-logo"
+ caption="pamisand Logo">}}
+ 
+{{<figure src="/img/designs/College-Reunion-Ticket.jpg" 
+ alt="college-reunion-ticket"
+ caption="College Reunion Ticket">}}
+
+{{<figure src="/img/designs/GameStoreMenu.jpg" 
+ alt="game-store-menu"
+ caption="Game Store Menu">}}
+
+{{<figure src="/img/designs/Kindrox'sThoughts-PodcastCover.jpg" 
+ alt="kindrox's-thoughts-podcast-cover"
+ caption="Kindrox's Thoughts Podcast Cover">}}
 </div>
+<br><hr>
 
-## Kindrowaves Podcast
- [ ] add fb cover
-{{<figure
-       src="/img/client/KindroWaves-Desktop-Wallpaper.webp"
-      >}}
-
-<div id="columns">
-{{<figure
-       src="/img/client/KindroWaves-Cover.webp"
-      caption="moonstar.us mascot">}}
-
-{{<figure
-       src="/img/client/kindroxWaves-newpodcast-post.webp"
-      caption="moonstar.us mascot">}}
-</div>
-
-## Various
-
-<div id="columns">
-{{<figure
-       src="/img/client/SivaliFootballAwrudu-invitiation-letter-final.webp"
-      caption="moonstar.us mascot">}}
-
-{{<figure
-       src="/img/client/pamisand_logo.webp"
-      caption="moonstar.us mascot">}}
-
-{{<figure
-       src="/img/client/pamisand_header_final.webp"
-      caption="moonstar.us mascot">}}
-
-{{<figure
-       src="/img/client/Pallebadda-College-Reunion---Ticket2.webp"
-      caption="moonstar.us mascot">}}
-
-{{<figure
-       src="/img/client/Artboard 3MENU.webp"
-      caption="moonstar.us mascot">}}
-</div>
 
 ## Club Brick
 
-{{<figure
-       src="/img/client/ecb-header.webp"
-      caption="moonstar.us mascot">}}
+{{<figure src="/img/designs/EpicCityBuildersYoutubeHeader.jpg" 
+ alt="epic-city-builders-youtube-header"
+ caption="Epic City Builders Youtube Header">}}
 
-#### thumbnails
+### youtube thumbnails
+
 <div id="columns">
-{{<figure
-       src="/img/client/carnivalmoc.webp"
-      caption="moonstar.us mascot">}}
-
-{{<figure
-       src="/img/client/Medival-Fotress-final.webp"
-      caption="moonstar.us mascot">}}
-
-{{<figure
-       src="/img/client/mochourMedival.webp"
-      caption="moonstar.us mascot">}}
-
+{{<figure src="/img/designs/1Thumbnail.jpg" 
+ alt="thumbnail"
+ >}}
+{{<figure src="/img/designs/2Thumbnail.jpg" 
+ alt="thumbnail"
+ >}}
+{{<figure src="/img/designs/3Thumbnail.jpg" 
+ alt="thumbnail"
+ >}}
+{{<figure src="/img/designs/4Thumbnail.jpg" 
+ alt="thumbnail"
+ >}}
+{{<figure src="/img/designs/5Thumbnail.jpg" 
+ alt="thumbnail"
+ >}}
+{{<figure src="/img/designs/6Thumbnail.jpg" 
+ alt="thumbnail"
+ >}}
+{{<figure src="/img/designs/7Thumbnail.jpg" 
+ alt="thumbnail"
+ >}}
+{{<figure src="/img/designs/8Thumbnail.jpg" 
+ alt="thumbnail"
+ >}}
 </div>
+<br><hr>
+
+
+## Incursion Podcast
+{{<figure src="/img/designs/IncurisonPodcast-Facebook Cover.jpg" 
+ alt="incurison-podcast-facebook-cover"
+ caption="Incurison Facebook Cover">}}
+{{<figure src="/img/designs/IncursionPodcast-PodcastCover.jpg" 
+ alt="incursion-podcast-podcast-cover"
+ caption="Incursion Podcast Cover">}}
+<br><hr>
+
+
+## Kindrowaves Podcast
+
+{{<figure src="/img/designs/KindroWaves-Desktop-Wallpaper.jpg" 
+ alt="kindro-waves-desktop-wallpaper"
+ caption="Kindro Waves Desktop Wallpaper">}}
+{{<figure src="/img/designs/KindroWaves-Facebook-Cover.jpg" 
+ alt="kindro-waves-facebook-cover"
+ caption="Kindro Waves Facebook Cover">}}
+<div id="columns">
+{{<figure src="/img/designs/KindroWaves-PodcastCover.jpg" 
+ alt="kindro-waves-podcast-cover"
+ caption="Kindro Waves Podcast Cover">}}
+
+{{<figure src="/img/designs/kindroxWaves-NewEpisode-PostTemplate.jpg" 
+ alt="kindrox-waves-new-episode-post-template"
+ caption="kindrox Waves New Episode Post Template">}}
+</div>
+<br><hr>
