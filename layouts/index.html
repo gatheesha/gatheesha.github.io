@@ -1,5 +1,6 @@
 {{ define "main" }}
   <section id="about">
+    <h2>Im Gatheesha නිපුල්ම</h2>
   {{ if isset .Site.Params "description" }}
     {{ .Site.Params.description | $.Page.RenderString }}
   {{ end }}
@@ -107,5 +108,11 @@
         {{ end }}
     </ul>
   </section>
+  <figure class="center" style="max-width:80%;">
+    <img src=
+    "{{ "img/family.jpg" | absURL }}"
+        alt="Longtail boat in Thailand" style="width: 100%; height:auto; margin-bottom:-10px; ">
+      <figcaption>Me and The Bois</figcaption>
+    </figure>
   {{ end }}
 {{ end }}

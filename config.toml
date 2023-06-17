@@ -70,9 +70,9 @@ weight = 6
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "I do graphics design and game development"
+  description = "and I do graphics design and game development"
   mainSection = "posts" # your main section
-  showAllPostsOnHomePage = false # default
+  showAllPostsOnHomePage = true # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = false # show tags overview by default.
   showProjectsList = true # show projects list by default (if projects data file exists).
