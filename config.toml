@@ -66,7 +66,7 @@ weight = 6
 
   colortheme = "custom" # dark, light, white, or classic
   rss = false # generate rss feed. default value is false
-  googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
+  googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
 
   # Home page settings
