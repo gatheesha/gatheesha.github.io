@@ -7,8 +7,7 @@ author: "gath"
 Check out some games i made!
 
 ## Massacre Of RoyalButts
-_Featuring Global Leaderboard, 3 Boss Fights plus a Secret ending. Also available on Google PlayStore_
-
+Featuring Global Leaderboard, 3 Boss Fights plus a Secret ending. Also available on Google PlayStore
 {{<itch "https://itch.io/embed/1597418" >}}
 
 **Release Date**: 2022.05.05 
@@ -37,9 +36,7 @@ Made within 1month (we spent like 5days on it lol ) for Secret Santa Jam 2021
 <hr>
 
 ## Aul
-_Unfinished Zombie Survial Shooter with graphics inspired from Altos Adventures._
-
-Made within a week for Brackeys Game Jam 2021.2
+Unfinished Zombie Survial Shooter with graphics inspired from Altos Adventures. Made within a week for Brackeys Game Jam 2021.2
 {{<itch "https://itch.io/embed/1176141" >}}
 
 **Release Date**: 2021.08.29 

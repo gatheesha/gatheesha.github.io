@@ -273,11 +273,35 @@ code {
   background-size: contain;
 }
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+p {
+  margin-bottom: 20px;
+}
+
 figure {
   display: table;
   overflow: hidden;
   max-width: 100%;
-  margin: 25px 0;
+  margin: 10px 0;
   border: solid 0.2em;
   border-radius: 6px;
   transition: all 0.2s ease-out;

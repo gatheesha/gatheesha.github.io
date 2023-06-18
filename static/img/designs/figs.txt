@@ -1,7 +1,188 @@
-
+{{<figure src="/img/designs/1Thumbnail.jpg" 
+ alt="thumbnail"
+ caption="Thumbnail">}}
  
-
+{{<figure src="/img/designs/2Thumbnail.jpg" 
+ alt="thumbnail"
+ caption="Thumbnail">}}
  
-
+{{<figure src="/img/designs/3Thumbnail.jpg" 
+ alt="thumbnail"
+ caption="Thumbnail">}}
  
-
+{{<figure src="/img/designs/4Thumbnail.jpg" 
+ alt="thumbnail"
+ caption="Thumbnail">}}
+ 
+{{<figure src="/img/designs/5Thumbnail.jpg" 
+ alt="thumbnail"
+ caption="Thumbnail">}}
+ 
+{{<figure src="/img/designs/6Thumbnail.jpg" 
+ alt="thumbnail"
+ caption="Thumbnail">}}
+ 
+{{<figure src="/img/designs/7Thumbnail.jpg" 
+ alt="thumbnail"
+ caption="Thumbnail">}}
+ 
+{{<figure src="/img/designs/8Thumbnail.jpg" 
+ alt="thumbnail"
+ caption="Thumbnail">}}
+ 
+{{<figure src="/img/designs/AccountingAvruduFestival-Post.jpg" 
+ alt="accounting-avrudu-festival-post"
+ caption="Accounting Avrudu Festival Post">}}
+ 
+{{<figure src="/img/designs/Amaterasu.jpg" 
+ alt="amaterasu"
+ caption="Amaterasu">}}
+ 
+{{<figure src="/img/designs/BroonTheBullyOpenForStud.jpg" 
+ alt="broon-the-bully-open-for-stud"
+ caption="Broon The Bully Open For Stud">}}
+ 
+{{<figure src="/img/designs/College-Reunion-Post.jpg" 
+ alt="college-reunion-post"
+ caption="College Reunion Post">}}
+ 
+{{<figure src="/img/designs/College-Reunion-Ticket.jpg" 
+ alt="college-reunion-ticket"
+ caption="College Reunion Ticket">}}
+ 
+{{<figure src="/img/designs/CursedSquidGameEdit.jpg" 
+ alt="cursed-squid-game-edit"
+ caption="Cursed Squid Game Edit">}}
+ 
+{{<figure src="/img/designs/EpicCityBuildersYoutubeHeader.jpg" 
+ alt="epic-city-builders-youtube-header"
+ caption="Epic City Builders Youtube Header">}}
+ 
+{{<figure src="/img/designs/ForMoonstar.us.jpg" 
+ alt="for-moonstar.us"
+ caption="For Moonstar.us">}}
+ 
+{{<figure src="/img/designs/GameStoreMenu.jpg" 
+ alt="game-store-menu"
+ caption="Game Store Menu">}}
+ 
+{{<figure src="/img/designs/Hydracast 2 PodcastCover.jpg" 
+ alt="hydracast-podcast-cover"
+ caption="Hydracast Podcast Cover">}}
+ 
+{{<figure src="/img/designs/HydracastPodcastCover.jpg" 
+ alt="hydracast-podcast-cover"
+ caption="Hydracast Podcast Cover">}}
+ 
+{{<figure src="/img/designs/IncurisonPodcast-Facebook Cover.jpg" 
+ alt="incurison-podcast-facebook-cover"
+ caption="Incurison Podcast Facebook Cover">}}
+ 
+{{<figure src="/img/designs/IncursionPodcast-PodcastCover.jpg" 
+ alt="incursion-podcast-podcast-cover"
+ caption="Incursion Podcast Podcast Cover">}}
+ 
+{{<figure src="/img/designs/KindroWaves-Desktop-Wallpaper.jpg" 
+ alt="kindro-waves-desktop-wallpaper"
+ caption="Kindro Waves Desktop Wallpaper">}}
+ 
+{{<figure src="/img/designs/KindroWaves-Facebook-Cover.jpg" 
+ alt="kindro-waves-facebook-cover"
+ caption="Kindro Waves Facebook Cover">}}
+ 
+{{<figure src="/img/designs/KindroWaves-PodcastCover.jpg" 
+ alt="kindro-waves-podcast-cover"
+ caption="Kindro Waves Podcast Cover">}}
+ 
+{{<figure src="/img/designs/Kindrox'sThoughts-PodcastCover.jpg" 
+ alt="kindrox's-thoughts-podcast-cover"
+ caption="Kindrox's Thoughts Podcast Cover">}}
+ 
+{{<figure src="/img/designs/kindroxWaves-NewEpisode-PostTemplate.jpg" 
+ alt="kindrox-waves-new-episode-post-template"
+ caption="kindrox Waves New Episode Post Template">}}
+ 
+{{<figure src="/img/designs/KoreanClassFlyer.jpg" 
+ alt="korean-class-flyer"
+ caption="Korean Class Flyer">}}
+ 
+{{<figure src="/img/designs/Moonstar.usMascot.jpg" 
+ alt="moonstar.us-mascot"
+ caption="Moonstar.us Mascot">}}
+ 
+{{<figure src="/img/designs/NadungamuweRaja.jpg" 
+ alt="nadungamuwe-raja"
+ caption="Nadungamuwe Raja">}}
+ 
+{{<figure src="/img/designs/NartworkGamingFanart.jpg" 
+ alt="nartwork-gaming-fanart"
+ caption="Nartwork Gaming Fanart">}}
+ 
+{{<figure src="/img/designs/NarutoFanart.jpg" 
+ alt="naruto-fanart"
+ caption="Naruto Fanart">}}
+ 
+{{<figure src="/img/designs/NarutoFanartUnedited.jpg" 
+ alt="naruto-fanart-unedited"
+ caption="Naruto Fanart Unedited">}}
+ 
+{{<figure src="/img/designs/Nutshellanimations-DTIYS-Challenge-Unedited.jpg" 
+ alt="nutshellanimations-d-t-i-y-s-challenge-unedited"
+ caption="Nutshellanimations D T I Y S Challenge Unedited">}}
+ 
+{{<figure src="/img/designs/Nutshellanimations-DTIYS-Challenge.jpg" 
+ alt="nutshellanimations-d-t-i-y-s-challenge"
+ caption="Nutshellanimations D T I Y S Challenge">}}
+ 
+{{<figure src="/img/designs/pamisand-Facebook-Header.jpg" 
+ alt="pamisand-facebook-header"
+ caption="pamisand Facebook Header">}}
+ 
+{{<figure src="/img/designs/pamisand-Logo.jpg" 
+ alt="pamisand-logo"
+ caption="pamisand Logo">}}
+ 
+{{<figure src="/img/designs/PepeTheFrogFanart.jpg" 
+ alt="pepe-the-frog-fanart"
+ caption="Pepe The Frog Fanart">}}
+ 
+{{<figure src="/img/designs/RoyalButtsCharacterPosters-HoraGediya.jpg" 
+ alt="royal-butts-character-posters-hora-gediya"
+ caption="Royal Butts Character Posters Hora Gediya">}}
+ 
+{{<figure src="/img/designs/RoyalButtsCharacterPosters-Kaputa.jpg" 
+ alt="royal-butts-character-posters-kaputa"
+ caption="Royal Butts Character Posters Kaputa">}}
+ 
+{{<figure src="/img/designs/RoyalButtsCharacterPosters-Maina.jpg" 
+ alt="royal-butts-character-posters-maina"
+ caption="Royal Butts Character Posters Maina">}}
+ 
+{{<figure src="/img/designs/RoyalButtsCharacterPosters-YOU.jpg" 
+ alt="royal-butts-character-posters-y-o-u"
+ caption="Royal Butts Character Posters Y O U">}}
+ 
+{{<figure src="/img/designs/RoyallButts-Poster.jpg" 
+ alt="royall-butts-poster"
+ caption="Royall Butts Poster">}}
+ 
+{{<figure src="/img/designs/SivaliFootballAwrudu-Letter.jpg" 
+ alt="sivali-football-awrudu-letter"
+ caption="Sivali Football Awrudu Letter">}}
+ 
+{{<figure src="/img/designs/SivaliFootballAwrudu-Post.jpg" 
+ alt="sivali-football-awrudu-post"
+ caption="Sivali Football Awrudu Post">}}
+ 
+{{<figure src="/img/designs/TS-Red-Fanart.jpg" 
+ alt="t-s-red-fanart"
+ caption="T S Red Fanart">}}
+ 
+{{<figure src="/img/designs/Tshirt-Post.jpg" 
+ alt="tshirt-post"
+ caption="Tshirt Post">}}
+ 
+{{<figure src="/img/designs/ValorantEvent-Post.jpg" 
+ alt="valorant-event-post"
+ caption="Valorant Event Post">}}
+ 
