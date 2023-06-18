@@ -1,8 +1,8 @@
 +++
 title = "Design Portfolio"
 cover = ""
-layout = "index"
 Toc = "false"
+layout = "design"
 +++
 
 # Social Media Designs

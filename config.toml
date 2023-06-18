@@ -1,10 +1,10 @@
-baseURL = "https://example.com"
+baseURL = "https://gatheeshanipulma.github.io/"
 languageCode = "en-us"
 title = "gath's blog"
 #theme = "cactus"
 copyright = "gath" # cactus will use title if copyright is not set
-disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
-# googleAnalytics = "UA-1234-5"
+#disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
+googleAnalytics = "G-B5QYXWB0HB"
 
 
 # summaryLength = 2
@@ -50,7 +50,7 @@ weight = 6
     ordered = false
     startLevel = 2
   [markup.highlight]
-    codeFences = true
+    codeFences = false
     guessSyntax = false
     hl_Lines = ""
     lineNoStart = 1
@@ -88,16 +88,16 @@ weight = 6
   mainSectionTitle = "Latest Blog Posts"
 
    [params.comments]
-     enabled = false # default
-  #   engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
+     enabled = true # default
+     engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
   #   [params.comments.utterances]
   #     repo = "<github_username>/<github_reponame>"
   #     label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
   #     theme = "github-light"
-  #   [params.comments.cactuscomments]
-  #     siteName = "your_cactus_comments_sitename" # see https://cactus.chat/ on how to register your site name
-  #     serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
-  #     serverName = "" # Defaults to cactus.chat
+     [params.comments.cactuscomments]
+       siteName = "gathsblog" # see https://cactus.chat/ on how to register your site name
+       serverUrl = "" # Defaults to https://matrix.cactus.chat:8448 (Cactus Chat public server)
+       serverName = "" # Defaults to cactus.chat
 
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands

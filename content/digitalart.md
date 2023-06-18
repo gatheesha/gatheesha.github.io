@@ -1,7 +1,7 @@
 +++
 title = "Design Portfolio"
 cover = ""
-layout = "index"
+layout = "design"
 Toc = "false"
 +++
 
