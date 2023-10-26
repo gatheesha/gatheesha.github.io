@@ -7,7 +7,7 @@ author: "gath"
 Check out some games i made!
 
 ## Massacre Of RoyalButts
-Featuring Global Leaderboard, 3 Boss Fights plus a Secret ending. Also available on Google PlayStore
+Featuring a Global Leaderboard, 3 Boss Fights plus a Secret ending. Also available on Google PlayStore
 {{<itch "https://itch.io/embed/1597418" >}}
 
 **Release Date**: 2022.05.05 

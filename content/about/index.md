@@ -24,9 +24,9 @@ Some random facts about me:
 - For me 'happyness > money or pleasure'
 
 ## Links
-- [**Instagram**](https://www.instagram.com/gatheesha22/)
+- [**Instagram**](https://www.instagram.com/gatheesha22/) (Instagram Na)
 - [**Twitter**](https://twitter.com/Gatheesha)
-- [**Github**](https://github.com/gatheeshanipulma)
+- [**Github**](https://github.com/gatheesha)
 - [**itch.io**](https://gatheesha.itch.io/) 
 
 {{<figure src="/img/Gath.jpg" alt="pic of me" caption="a random pic of me (handsome af ik)">}}

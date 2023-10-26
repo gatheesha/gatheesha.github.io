@@ -1,4 +1,4 @@
-baseURL = "https://gatheeshanipulma.github.io/"
+baseURL = "https://gatheesha.github.io/"
 languageCode = "en-us"
 title = "gath's blog"
 #theme = "cactus"
@@ -110,7 +110,7 @@ weight = 6
     link = "https://twitter.com/Gatheesha"
   [[params.social]]
     name = "github"
-    link = "https://github.com/gatheeshanipulma"
+    link = "https://github.com/gatheesha"
 
   [[params.social]]
     name = "itch-io"
