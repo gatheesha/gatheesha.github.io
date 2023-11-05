@@ -61,8 +61,8 @@ weight = 6
     lineNumbersInTable = true
     noClasses = true
     noHl = false
-    style = 'fruity'
-    tabWidth = 4
+    style = 'monokai'
+    tabWidth = 5
   [markup.goldmark.renderer] 
     unsafe= true
 

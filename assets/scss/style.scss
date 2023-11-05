@@ -150,15 +150,18 @@ body {
 @import "partial/categories";
 
 pre {
+  margin-top: 0 !important;
   overflow-x: auto;
   padding: 10px 10px 10px 20px;
-  border: none !important;
-  border-radius: none !important;
-  -webkit-border-radius: none !important;
+  border: 2px;
+  border-radius: 2px !important;
+  -webkit-border-radius: 2px !important;
   font-size: 13px;
   font-family: $font-family-mono;
   line-height: 22px;
   position: relative;
+
+  border-color: $color-text;
 
   .code-copy-btn {
     position: absolute;
@@ -187,15 +190,17 @@ pre {
     display: block;
     padding: 0;
     border: none;
+    background-color: unset;
   }
 }
 
 code {
   font-family: $font-family-mono;
+  color: $color-background;
   padding: 0 5px;
-  border: 1px dotted $color-border;
   border-radius: 2px;
   -webkit-border-radius: 2px;
+  background-color: $color-meta-code;
 }
 
 .highlight {
