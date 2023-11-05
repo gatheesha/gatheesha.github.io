@@ -151,10 +151,10 @@ body {
 
 pre {
   overflow-x: auto;
-  padding: 15px 15px 10px 15px;
-  border: 1px dotted $color-border;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
+  padding: 10px 10px 10px 20px;
+  border: none !important;
+  border-radius: none !important;
+  -webkit-border-radius: none !important;
   font-size: 13px;
   font-family: $font-family-mono;
   line-height: 22px;
@@ -165,14 +165,13 @@ pre {
     top: 0;
     right: 0;
     border: 0;
-    border-radius: 0 2px;
-    padding: 0;
-    font-family: "JetBrains Mono", monospace;
+    padding: 10px;
+    font-family: $font-family-body;
     font-weight: 800;
     font-size: 0.9em;
     line-height: 1.7;
-    color: #fff;
-    background-color: #8c8c8c;
+    color: $color-background;
+    background-color: $color-text;
     min-width: 60px;
     text-align: center;
     cursor: pointer;
@@ -180,8 +179,8 @@ pre {
   }
 
   .code-copy-btn:hover {
-    background-color: #666;
-    color: #2bbc8a;
+    background-color: #000000;
+    color: $color-accent-1;
   }
 
   code {
@@ -207,7 +206,7 @@ code {
   }
 
   pre {
-    border: none;
+    /* border: none; */
     background: none;
   }
 
