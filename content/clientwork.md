@@ -127,6 +127,15 @@ layout = "design"
 {{<figure src="/img/designs/IncursionPodcast-PodcastCover.jpg"
  alt="incursion-podcast-podcast-cover"
  caption="Incursion Podcast Cover">}}
+{{<figure src="/img/designs/incursion-cover-1.jpg"
+ alt="incursion-episode-cover"
+ caption="Incursion Episode Cover">}}
+{{<figure src="/img/designs/incursion-cover-2.jpg"
+ alt="incursion-episode-cover"
+ caption="Incursion Episode Cover">}}
+{{<figure src="/img/designs/incursion-cover-3.jpg"
+ alt="incursion-episode-cover"
+ caption="Incursion Episode Cover">}}
 <br><hr>
 
 ## Kindrowaves Podcast
