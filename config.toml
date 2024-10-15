@@ -4,7 +4,7 @@ title = "gath's blog"
 #theme = "cactus"
 copyright = "gath" # cactus will use title if copyright is not set
 #disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
-googleAnalytics = "G-B5QYXWB0HB"
+#googleAnalytics = "G-B5QYXWB0HB"
 
 
 # summaryLength = 2
